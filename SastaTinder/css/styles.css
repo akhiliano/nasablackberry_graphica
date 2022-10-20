@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  margin: 20px;
   padding: 0;
   position: relative;
   overflow-x: hidden;
@@ -23,18 +23,18 @@ p{
 
 
 .col-lg-6{
-  height: 480px;
+  height: 460px;
 }
 
 .big-heading{
   font-family: 'Montserrat', sans-serif;
-  font-size:3.5rem;
-  line-height:1.5;
+  font-size:3.7rem;
+  line-height:1.8;
   font-weight:900;
 }
 
 .section-heading{
-  font-size:3rem;
+  font-size:3.5rem;
   line-height: 1.5;
 }
 
