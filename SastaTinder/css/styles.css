@@ -31,6 +31,7 @@ p{
   font-size:3.7rem;
   line-height:1.8;
   font-weight:900;
+  color: black;
 }
 
 .section-heading{
@@ -357,4 +358,11 @@ animation-duration: 0.65s;
     position:static;
     transform: rotate(0);
   }
+}
+
+.footer-image{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 15rem;
 }
