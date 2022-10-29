@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts (Montserrat) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Photo Maniacs</title>
+    
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!--  SWIPERJS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- favicon -->
+    <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-video-camera-32.png">
+
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    </head>
+  <body>
+    <!-- Navigation Bar -->
+      <nav>
+          <div class="container nav__container">
+            <!-- Logo -->
+          <a href="index.html" class="nav__logo"><img src="./images/log-transformed.png" class="logo" alt="Nav Logo"></a>
+          <ul class="nav__links">
+            <!-- Links -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#exhibition">Exhibitions</a></li>
+            <li><a href="#family">Family</a></li>
+          </ul>
+          <ul class="nav__socials">
+            <!-- Buttons -->
+            <li><a href="https://www.instagram.com/oss_club_ait/" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/open-source-software-club/?originalSubdomain=in" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+            <li><a href="https://www.youtube.com/c/ossclubait" target="_blank"><i class="uil uil-youtube"></i></a></li>
+          </ul>
+
+          <img src="./images/moon.png" id="icon">
+          <button class = "nav__toggle-btn"><id = "nav__toggle-open"><i class="uil uil-bars"></i></button>
+          <button class = "nav__toggle-btn"><id = "nav__toggle-close"><i class="uil uil-multiply"></i></button>
+          </div>
+      </nav>
+
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "./images/sun.png";
+            }else {
+                icon.src = "./images/moon.png";
+            }
+        }
+    </script>
+      <!-- ***********************  End of Nav Bar  ***********************-->
+
+      <!-- ***********************  Header **************************** -->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <div class="header__image-bg"></div>
+                <div class="header__image-lg">
+                    <img src="./images/sukuna.jpg" alt="Header Img">
+                </div>
+                <div class="header__image-sm">
+                    <img src="./images/itadori.png" alt="Header Img">
+                </div>
+            </div>
+            <div class="header__right">
+                <div class="header__head">
+                    <div class="empty header__empty"></div>
+                    <a href="./images/sukuna.jpg">#Most Liked Photograph of 2022</a>
+                </div>
+                <h1>See the beauty of the world through our Lenses</h1>
+                <p>
+                  “A good photograph is one that communicates a fact, touches the heart, and leaves the viewer a
+                  changed person for having seen it. It is, in a word, effective. It takes an instant out of time,
+                  altering life by holding it still. Capturing your precious moments so that you can relive them.”
+                </p>
+                <a href="mailto:jass2k22@gmail.com" class="header__btn-md">Let's Talk</a>          <!-- for smaller devices -->
+
+            </div>
+        </div>
+    </header>
+    <div class="header__frames">
+        <div class="header__frame">
+            <img src="./images/shiva.jpg" alt="Header Frame One"></div>
+        <div class="header__frame">
+            <img src="./images/golden_temple.jpg" alt="Header Frame Two"></div>
+    </div>
+    <a href="mailto:jass2k22@gmail.com" class="contact__btn header__btn">
+        <i class="uil uil-arrow-up-right"></i>
+        <p>CONTACT - SEND US AN EMAIL</p>
+    </a>
+
+    <!-- ***********************  End of Header Section  ***********************-->
+
+
+    <!-- ***********************  About Section **************************** -->
+
+
+    <section id = "about">
+      <div class="container about__container">
+          <h2 class="about__title">About<br/>The MANIACS</h2>
+          <a href="mailto:jass2k22@gmail.com" class="contact__btn about__btn">
+              <i class="uil uil-arrow-up-right"></i>
+              <p>CONTACT - SEND US AN EMAIL</p>
+          </a>
+          <div class="about__left">
+              <div class="about__image">
+                  <div class="about__image-bg"></div>
+                  <div class="about__image-lg">
+                      <img src="./images/Jujutsu.jpg" alt="About Maniacs">
+                  </div>
+                  <div class="about__image-sm">
+                      <img src="./images/Jujutsu.jpg" alt="About Maniacs">
+                  </div>
+              </div>
+          </div>
+          <div class="about__right">
+            <div class="empty about__empty"></div>
+            <p>
+               A tear contains an ocean. A photographer is aware of the tiny moments
+               in a person’s life that reveal greater truths. We are there with our
+               cameras to record reality.
+            </p>
+            <p>
+               It is our intention to present – through the medium of photography –
+               intuitive observations of the natural world which may have meaning
+               to the spectators. We really believe there are things nobody would
+               see if we didn’t photograph them.
+            </p>
+            <p>
+               We wish to capture more such moments, moments where people are feeling
+               the love, the happiness, and the joy around them. We wish to give our
+               costumers who become our family, the best they can get.
+            </p>
+            <p>
+              Invite us to capture your beautiful memories and make them live forever,
+              come be a part of our family. Be a part of everlasting memories. Life is
+              like a camera. Just focus on what’s important and capture the good times,
+              develop from the negatives and if things don’t work out, just take another
+              shot.
+            </p>
+          </div>
+      </div>
+    </section>
+
+    <!-- ***********************  End of About Section  ***********************-->
+
+
+    <!-- ***********************  Gallery Section  ***********************-->
+
+
+    <section id = "gallery">
+      <div class="container gallery__container swiper mySwiper">
+        <div class="gallery__head">
+            <h2 class = "gallery__title">Our Gallery</h2>
+            <div class="empty gallery__empty"></div>
+        </div>
+          <p>
+            Most things in life are moments of pleasure and a lifetime of embarrassment;
+            photography is a moment of embarrassment and a lifetime of pleasure. We love
+            capturing these moments and enjoy adding new members to our big happy family
+            with each passing day.
+          </p>
+
+          <div class="swiper-wrapper">
+              <article class="swiper-slide">
+                  <img src="./images/w8.webp">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/p9.webp">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/w1.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/p5.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/b7.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/w3.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/goddess.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/kerala.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/p1.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/p5.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/b4.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/w9.jpg">
+              </article>
+              <article class="swiper-slide">
+                  <img src="./images/p6.jpg">
+              </article>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+
+    <!-- ***********************  End of Gallery  ***********************-->
+
+
+    <!-- ***********************  Exhibitions Section  ***********************-->
+
+    <section id = "exhibitions">
+      <div class="container exhibitions__container">
+          <h2 class = "exhibitions__title">Exhibitions</h2>
+          <div class="empty exhibitions__empty"></div>
+          <div class="exhibtions__head">
+              <p>
+                  The camera is much more than a recording apparatus, it is a medium
+                  via which messages reach us from another world. And since we don’t
+                  have a favourite, look  at all are best works to know more about us.
+              </p>
+              <a href="mailto:jass2k22@gmail.com" class="contact__btn exhibitions__btn">
+                  <i class="uil uil-arrow-up-right"></i>
+                  <p>CONTACT - SEND US AN EMAIL</p>
+              </a>
+          </div>
+          <div class="exhibitions__gallery">
+            <article><img src="./images/ex2.jpg"></article>
+            <article><img src="./images/flag.jpg"></article>
+            <article><img src="./images/ex1.jpg"></article>
+            <article><img src="./images/ex7.jpg"></article>
+            <article><img src="./images/ex5.jpg"></article>  <!-- Horizontal Image -->
+            <article><img src="./images/ex3.jpg"></article>
+            <article><img src="./images/ex6.jpg"></article>
+          </div>
+      </div>
+    </section>
+
+    <!-- ***********************  End of Exhibitions  ***********************-->
+
+
+    <!-- ***********************  Family Section  ***********************-->
+
+  <section id = "family">
+    <section class="container">
+      <div class="testimonial mySwiper">
+        <h2 class = "family__title">Our Family</h2>
+        <p>Swipe --></p>
+        <div class="testi-content swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="images/test1.jpeg" alt="" class="image" />
+            <p>
+              I just wanted to share a quick note and let you know that you guys do a really good job.
+              I’m glad I decided to work with you.
+              It’s really great how easy your websites are to update and manage. I never have any problem at all. Thankyou for all your hardwork.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Photographer</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="images/test2.jpeg" alt="" class="image" />
+            <p>
+              PM is a regular photography company for our corporate events, and always delivers a really high selection of photos.
+              They're extremely responsive and easy to work with pre and post event too. I would always use them where possible.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Manager - Community Matrimony</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="images/test3.jpeg" alt="" class="image" />
+            <p>
+              Thank you very much for the photos of the Brain Game, they are brilliant and just what we wanted.
+              I am really pleased with how the new light design came across in the photos and you have captured the evening’s atmosphere wonderfully!
+              we will surely come back for more.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+
+    <!-- ***********************  End of Family Section  ***********************-->
+
+    <!-- ***********************  Footer Section  ***********************-->
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__head">
+                <h2 class="footer__title">support@gmail.com</h2>
+                <a href="mailto:support@gmail.com" class="footer__btn"><i class="uil uil-arrow-up-right"></i></a>
+            </div>
+            <ul class="footer__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+                <li><a href="#family">Family</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- ***********************  End of Footer  ***********************-->
+
+
+
+
+
+
+<!-- SWIPER JS CDN -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- JAVA -->
+   <script src="./main.js"></script>
+  </body>
+</html>
