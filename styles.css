@@ -278,7 +278,7 @@ header{
 .header__frame{
   width: 14rem;
   border: 0.4rem solid var(--color-bg-3);
-  box-shadow: 0 0 4rem rgba(0,0,0,0.5);
+  box-shadow: 0 0 4rem rgba(213, 19, 19, 0.5);
   position: absolute;
   transform: rotate(-10deg);
   transform-origin: bottom left;
@@ -435,9 +435,7 @@ header{
 
 /* Testimonial */
 
-#family{
-  /* margin-top: 23rem; */
-}
+
 
 testimonial {
   position: relative;
@@ -899,4 +897,4 @@ footer{
     border: none;
   }
 }
-}
+
